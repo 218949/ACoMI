@@ -3,8 +3,11 @@ import Read
 import os
 import main
 
-print("1. Stwórz bazę dla instrumentu \n 2. Rozpoznaj instrument \n 3. Zakończ program!")
-user_choice_main = input("Wybierz akcję:")
+print(sep="/n")
+print("1. Stwórz bazę dla instrumentu \n2. Rozpoznaj instrument \n3. Zakończ program!")
+print(sep="/n")
+user_choice_main = input("Wybierz akcję: ")
+print(sep="/n")
 
 if user_choice_main == "1":
     list_of_flies = []

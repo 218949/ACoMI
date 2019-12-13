@@ -1,7 +1,7 @@
 from __future__ import print_function
 import Parameters
-import pyglet
-
+#import pyglet
+#import os
 class Frames():
 
     def frames_division(data, number_of_samples, fs_rate, base_choice, number_of_files, number_of_file, user_choice):
@@ -44,6 +44,7 @@ class Frames():
                 # Percent
                 percent = (100 * number_of_frame) / len(frame_begin)
                 print("Parameterization progress:", round(percent, 2), "%")
+                #os.system("cls")
 
                 Parameters.Parameters.parameterization(data, part_of_data, fs_rate, number_of_samples_in_frame, number_of_frame,
                                                        base_choice, number_of_files, number_of_file, user_choice,

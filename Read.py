@@ -1,12 +1,12 @@
 from __future__ import print_function
 import scipy.io.wavfile as wavfile
 import wave
-import pyglet
+#import pyglet
 import Frames
-import os
+#import os
 from playsound import playsound
 
-os.system("cls")
+
 class Read_file():
 
     def read(file_choice, base_choice, number_of_files, number_of_file, user_choice):
